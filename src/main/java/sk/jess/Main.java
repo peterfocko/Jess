@@ -1,7 +1,12 @@
 package sk.jess;
 
+import sk.jess.core.Board;
+import sk.jess.cli.CLI;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Greeting Wifey!");
+        Board board = new Board();
+        CLI cli = new CLI(board);
+        cli.display();
     }
 }
