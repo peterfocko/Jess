@@ -16,4 +16,7 @@ public class Board {
         }
     }
 
+    public Piece getPieceAt(int row, Column column) {
+        return pieces[row][column.getValue()];
+    }
 }
