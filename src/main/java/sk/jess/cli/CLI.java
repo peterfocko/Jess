@@ -5,7 +5,7 @@ import java.util.Map;
 import sk.jess.core.*;
 
 public class CLI {
-    
+
     private static final String CORNER_DELIMITER = "+";
     private static final String ROW_DELIMITER = "-";
     private static final String COLUMN_DELIMITER = "|";
@@ -13,11 +13,9 @@ public class CLI {
     private static final int BOARD_SIZE = Column.values().length;
 
     private static final String ANSI_RESET = "\u001B[0m\u001B[1m";
-    // private static final String ANSI_LIGHT_BG = "\u001B[43m";
-    private static final String ANSI_LIGHT_BG = "\u001B[47m";
-    // private static final String ANSI_DARK_BG = "\u001B[42m";
-    private static final String ANSI_DARK_BG = "\u001B[30m";
-    private static final String ANSI_LIGHT_FG = "\u001B[36m";
+    private static final String ANSI_LIGHT_BG = "\u001B[46m";
+    private static final String ANSI_DARK_BG = "\u001B[45m";
+    private static final String ANSI_LIGHT_FG = "\u001B[37m";
     private static final String ANSI_DARK_FG = "\u001B[30m";
 
     private static final Map<Boolean, String> BG_COLOR = new HashMap<>();
